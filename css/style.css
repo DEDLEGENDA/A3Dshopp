@@ -1,3 +1,7 @@
+:root{
+    --color1: rgba(252,176,69,1);
+    --color2: rgb(131,58,180);
+}
 header{
     background: rgb(131,58,180);
     background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
@@ -7,4 +11,42 @@ header{
 }
 header{
     padding: 200px 0;
+}
+.btn-buy{
+    background-color: var(--color2);
+    transition: all 0.55s ease-in;
+    display: block;
+    color: var(--bs-white);
+    margin: 0 auto;
+    width: 200px;
+}
+.btn-buy:hover{
+    background-color: var(--color1);
+    color: var(--bs-white)
+}
+.about{
+    background: rgba(252, 176, 69, 0.493);
+}
+.about-icon{
+    width:60px;
+    height:60px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.about-icon{
+    font-size:25px;
+    color: var(--color2);
+}
+.line{
+    background-color: var(--color2);
+    height:3px;
+    width: 100px;
+    margin: 0 auto;
+}
+.about h2{
+    padding-top: 50px;
 }
