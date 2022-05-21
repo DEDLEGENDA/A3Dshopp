@@ -64,3 +64,9 @@ footer .btn{
     background-color:white;
     color: black;
 }
+.carousel-inner img{
+    height: 360px;
+}
+.carysel{
+    background: rgba(252, 176, 69, 0.78);
+}
